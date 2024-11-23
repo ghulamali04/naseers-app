@@ -4,11 +4,11 @@ import { Card, CardContent } from "./ui/card"
 
 const Comparison: React.FC = () => {
     return (
-        <section className="bg-white pt-11 pb-16 px-10">
-            <h2 className="text-primary text-5xl font-bold w-full text-center mb-9 mt-5">Goodbye To Traditional Website</h2>
+        <section className="bg-white pt-11 pb-16 sm:px-10">
+            <h2 className="text-primary text-3xl sm:text-5xl font-bold w-full text-center mb-9 mt-5">Goodbye To Traditional Website</h2>
             <div className="w-full ">
-                <div className="flex gap-x-4">
-                    <div className="md:basis-2/3 lg:basis-2/3">
+                <div className="flex md:flex-nowrap flex-wrap gap-x-4">
+                    <div className=" basis-full md:basis-2/3 lg:basis-2/3">
                         <Card className="bg-primary">
                             <CardContent className="flex flex-col justify-center p-6 min-h-72">
                                 <div className="bg-white p-4 rounded-full w-fit mb-5">
@@ -23,7 +23,7 @@ const Comparison: React.FC = () => {
                             </CardContent>
                         </Card>
                     </div>
-                    <div className="md:basis-2/3 lg:basis-2/3">
+                    <div className="basis-full md:basis-2/3 lg:basis-2/3">
                         <Card className="bg-primary">
                             <CardContent className="flex flex-col justify-center p-6 min-h-72">
                                 <div className="bg-white p-4 rounded-full w-fit mb-5">
@@ -38,7 +38,7 @@ const Comparison: React.FC = () => {
                             </CardContent>
                         </Card>
                     </div>
-                    <div className="md:basis-2/3 lg:basis-2/3">
+                    <div className="basis-full md:basis-2/3 lg:basis-2/3">
                         <Card className="bg-primary">
                             <CardContent className="flex flex-col justify-center p-6 min-h-72">
                                 <div className="bg-white p-4 rounded-full w-fit mb-5">

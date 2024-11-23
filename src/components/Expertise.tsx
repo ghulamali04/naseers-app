@@ -2,9 +2,9 @@ import * as React from "react"
 
 const Expertise: React.FC = () => {
     return (
-        <section className="bg-white pt-11 pb-16 w-full px-10">
-             <h2 className="text-primary text-5xl font-bold w-full text-center mb-9 mt-5">We Are Expert In</h2>
-            <div className="flex items-center justify-center  gap-x-7">
+        <section id="expertise" className="bg-white pt-11 pb-16 w-full sm:px-10">
+             <h2 className="text-primary text-3xl sm:text-5xl font-bold w-full text-center mb-9 mt-5">We Are Expert In</h2>
+            <div className="flex items-center justify-center flex-wrap gap-x-7">
                 <div className="flex flex-col items-center content-center">
                     <div className=" rounded-full border border-black p-4">
                         <svg className=" w-14 h-14 text-gray-800 dark:text-white"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round" ><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M6 3m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v0a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z" /><path d="M9 9a3 3 0 0 0 0 6h3m-3 0a3 3 0 1 0 3 3v-15" /></svg>

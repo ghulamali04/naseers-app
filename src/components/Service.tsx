@@ -21,12 +21,12 @@ import WD02 from '../assets/WD02.jpg'
 const Service: React.FC = () => {
   return (
     <section className="pt-11 pb-16">
-      <h2 className="text-primary text-5xl font-bold w-full text-center mb-9 mt-5">See The Services We Provide</h2>
+      <h2 className="text-primary text-3xl sm:text-5xl font-bold w-full text-center mb-9 mt-5">See The Services We Provide</h2>
           <Carousel
       opts={{
         align: "start",
       }}
-      className="w-full px-10"
+      className="w-full sm:px-10"
     >
       <CarouselContent>
         <CarouselItem key="0" className="md:basis-1/3 lg:basis-1/4">

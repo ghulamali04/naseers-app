@@ -8,10 +8,10 @@ import socialmedia from '../assets/social-media.png'
 
 const Soluton: React.FC = () => {
     return (
-        <section className="bg-white pt-11 pb-16 w-full px-10">
-            <h2 className="text-primary text-5xl font-bold w-full text-center mt-5 mb-9">Transform Your Digital Footprint With Our Customized Solutions</h2>
-            <div className="flex mb-4 gap-x-4">
-                <div className="md:basis-2/3 lg:basis-2/3">
+        <section className="bg-white pt-11 pb-16 w-full sm:px-10">
+            <h2 className="text-primary text-3xl sm:text-5xl font-bold w-full text-center mt-5 mb-9">Transform Your Digital Footprint With Our Customized Solutions</h2>
+            <div className="flex mb-4 md:flex-nowrap flex-wrap gap-x-4">
+                <div className=" basis-full md:basis-2/3 lg:basis-2/3">
                         <Card className="bg-primary">
                             <CardContent className="flex flex-col justify-center p-6 min-h-72">
                                 <div className="p-4 w-full mb-5 ">
@@ -24,7 +24,7 @@ const Soluton: React.FC = () => {
                             </CardContent>
                         </Card>
                 </div>
-                <div className="md:basis-2/3 lg:basis-2/3">
+                <div className=" basis-full md:basis-2/3 lg:basis-2/3">
                         <Card className="bg-primary">
                             <CardContent className="flex flex-col justify-center p-6 min-h-72">
                                 <div className="p-4 w-full mb-5">
@@ -39,8 +39,8 @@ const Soluton: React.FC = () => {
                 </div>
             </div>
 
-        <div className="flex mb-4 gap-x-4">
-        <div className="md:basis-3/4 lg:basis-1/4">
+        <div className="flex md:flex-nowrap flex-wrap mb-4 gap-x-4">
+        <div className=" basis-full md:basis-3/4 lg:basis-1/4">
                         <Card className="bg-primary">
                             <CardContent className="flex flex-col justify-center p-6 min-h-72">
                                 <h3 className="text-white text-xl mb-3">Adaptive Experience</h3>
@@ -52,7 +52,7 @@ const Soluton: React.FC = () => {
                 </div>
                 
 
-                <div className="md:basis-3/4 lg:basis-3/4">
+                <div className=" basis-full md:basis-3/4 lg:basis-3/4">
                         <Card className="bg-primary">
                             <CardContent className="flex flex-col justify-center p-6 min-h-72">
                                 <h3 className="text-white text-xl mb-3">SEO Power</h3>
@@ -64,8 +64,8 @@ const Soluton: React.FC = () => {
                 </div>
         </div>
 
-        <div className="flex mb-4 gap-x-4">
-        <div className="md:basis-3/4 lg:basis-3/4">
+        <div className="flex mb-4 md:flex-nowrap flex-wrap gap-x-4">
+        <div className="basis-full md:basis-3/4 lg:basis-3/4">
                         <Card className="bg-primary">
                             <CardContent className="flex flex-col justify-center p-6 min-h-72">
                                 <h3 className="text-white text-xl mb-3">User-Focused Design</h3>
@@ -76,7 +76,7 @@ const Soluton: React.FC = () => {
                 </div>
 
 
-                <div className="md:basis-1/4 lg:basis-1/4">
+                <div className="basis-full md:basis-1/4 lg:basis-1/4">
                         <Card className="bg-primary">
                             <CardContent className="flex flex-col justify-center p-6 min-h-72">
                                 <h3 className="text-white text-xl mb-3">Performance Mastery</h3>

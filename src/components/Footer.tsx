@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
                       "size-12 rounded-full",
                     )}
                   >
-                    <social.icon className="size-4 text-white" />
+                    <social.icon className="size-4 " />
                   </a>
                 </TooltipTrigger>
                 <TooltipContent>
