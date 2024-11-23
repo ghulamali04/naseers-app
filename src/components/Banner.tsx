@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from './Navbar';
+import { RainbowButton } from "./ui/magicui/rainbow-button";
+
 import  BackgroundImage from '../assets/background.webp';
 
 const Banner: React.FC = () => {
@@ -16,7 +18,7 @@ const Banner: React.FC = () => {
                     Solutions that inspire
                 </div>
 
-                <button className="btn-dark">Get Started</button>
+                <RainbowButton>Get Started</RainbowButton>
             </div>
         </div>
     )
