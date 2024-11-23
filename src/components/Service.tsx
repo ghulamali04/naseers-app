@@ -10,10 +10,8 @@ import {
 } from "./ui/carousel"
 
 import DigitalMarketing from '../assets/DigitalMarketing.jpg'
-import GD01 from '../assets/GD01.jpg'
 import Shopify from '../assets/Shopify.jpg'
 import UIUX01 from '../assets/UIUX01.jpg'
-import UIUX02 from '../assets/UIUX02.jpg'
 import VFX01 from '../assets/VFX01.jpg'
 import WD01 from '../assets/WD01.jpg'
 import WD02 from '../assets/WD02.jpg'

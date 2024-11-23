@@ -4,7 +4,6 @@ import { CalendarIcon, HomeIcon, MailIcon, PencilIcon } from "lucide-react";
 
 import { cn } from "../lib/utils";
 import { buttonVariants } from "./ui/button";
-import { Separator } from "./ui/separator";
 import {
   Tooltip,
   TooltipContent,

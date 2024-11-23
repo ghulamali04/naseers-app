@@ -4,7 +4,6 @@ import { Card, CardContent } from "./ui/card"
 
 import layers from '../assets/layers.png'
 import barchart from '../assets/bar-chart.png'
-import socialmedia from '../assets/social-media.png'
 
 const Soluton: React.FC = () => {
     return (
