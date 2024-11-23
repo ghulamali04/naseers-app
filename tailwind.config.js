@@ -7,11 +7,11 @@ export default {
   theme: {
   	extend: {
   		colors: {
-			"color-1": "hsl(var(--color-1))",
-			"color-2": "hsl(var(--color-2))",
-			"color-3": "hsl(var(--color-3))",
-			"color-4": "hsl(var(--color-4))",
-			"color-5": "hsl(var(--color-5))",
+  			'color-1': 'hsl(var(--color-1))',
+  			'color-2': 'hsl(var(--color-2))',
+  			'color-3': 'hsl(var(--color-3))',
+  			'color-4': 'hsl(var(--color-4))',
+  			'color-5': 'hsl(var(--color-5))',
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
@@ -57,6 +57,24 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		animation: {
+  			meteor: 'meteor 5s linear infinite'
+  		},
+  		keyframes: {
+  			meteor: {
+  				'0%': {
+  					transform: 'rotate(215deg) translateX(0)',
+  					opacity: '1'
+  				},
+  				'70%': {
+  					opacity: '1'
+  				},
+  				'100%': {
+  					transform: 'rotate(215deg) translateX(-500px)',
+  					opacity: '0'
+  				}
+  			}
   		}
   	},
   	keyframes: {
@@ -76,25 +94,51 @@ export default {
   				height: '0'
   			}
   		},
-		  marquee: {
-			from: { transform: "translateX(0)" },
-			to: { transform: "translateX(calc(-100% - var(--gap)))" },
-		  },
-		  "marquee-vertical": {
-			from: { transform: "translateY(0)" },
-			to: { transform: "translateY(calc(-100% - var(--gap)))" },
-		  },
-		  rainbow: {
-          "0%": { "background-position": "0%" },
-          "100%": { "background-position": "200%" },
-        }
+  		marquee: {
+  			from: {
+  				transform: 'translateX(0)'
+  			},
+  			to: {
+  				transform: 'translateX(calc(-100% - var(--gap)))'
+  			}
+  		},
+  		'marquee-vertical': {
+  			from: {
+  				transform: 'translateY(0)'
+  			},
+  			to: {
+  				transform: 'translateY(calc(-100% - var(--gap)))'
+  			}
+  		},
+  		rainbow: {
+  			'0%': {
+  				'background-position': '0%'
+  			},
+  			'100%': {
+  				'background-position': '200%'
+  			}
+  		},
+  		meteor: {
+  			'0%': {
+  				transform: 'rotate(215deg) translateX(0)',
+  				opacity: '1'
+  			},
+  			'70%': {
+  				opacity: '1'
+  			},
+  			'100%': {
+  				transform: 'rotate(215deg) translateX(-500px)',
+  				opacity: '0'
+  			}
+  		}
   	},
   	animation: {
-		marquee: "marquee var(--duration) linear infinite",
-        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+  		marquee: 'marquee var(--duration) linear infinite',
+  		'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
   		'accordion-down': 'accordion-down 0.2s ease-out',
   		'accordion-up': 'accordion-up 0.2s ease-out',
-		rainbow: "rainbow var(--speed, 2s) infinite linear",
+  		rainbow: 'rainbow var(--speed, 2s) infinite linear',
+  		meteor: 'meteor 5s linear infinite'
   	}
   },
   plugins: [require("tailwindcss-animate")],

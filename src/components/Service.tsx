@@ -19,7 +19,7 @@ import WD02 from '../assets/WD02.jpg'
 const Service: React.FC = () => {
   return (
     <section className="pt-11 pb-16">
-      <h2 className="text-primary text-3xl sm:text-5xl font-bold w-full text-center mb-9 mt-5">See The Services We Provide</h2>
+      <h2 className="text-primary 2xl:text-6xl text-3xl sm:text-5xl font-bold w-full text-center mb-9 mt-5">See The Services We Provide</h2>
           <Carousel
       opts={{
         align: "start",
@@ -31,7 +31,7 @@ const Service: React.FC = () => {
             <div className="p-1">
               <Card className="bg-cover bg-no-repeat" style={{ backgroundImage: `url('${WD01}')` }}>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <button className="btn-white">Web Design</button>
+                  <button className="btn-white 2xl:text-2xl">Web Design</button>
                 </CardContent>
               </Card>
             </div>
@@ -40,7 +40,7 @@ const Service: React.FC = () => {
         <div className="p-1">
               <Card className="bg-cover bg-no-repeat" style={{ backgroundImage: `url('${VFX01}')` }}>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <button className="btn-white">VFX</button>
+                  <button className="btn-white 2xl:text-2xl">VFX</button>
                 </CardContent>
               </Card>
             </div>
@@ -49,7 +49,7 @@ const Service: React.FC = () => {
         <div className="p-1">
               <Card className="bg-cover bg-no-repeat" style={{ backgroundImage: `url('${UIUX01}')` }}>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <button className="btn-white">UI/UX</button>
+                  <button className="btn-white 2xl:text-2xl">UI/UX</button>
                 </CardContent>
               </Card>
             </div>
@@ -58,7 +58,7 @@ const Service: React.FC = () => {
         <div className="p-1">
               <Card className="bg-cover bg-no-repeat" style={{ backgroundImage: `url('${DigitalMarketing}')` }}>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <button className="btn-white">Digital Marketing</button>
+                  <button className="btn-white 2xl:text-2xl">Digital Marketing</button>
                 </CardContent>
               </Card>
             </div>
@@ -67,7 +67,7 @@ const Service: React.FC = () => {
         <div className="p-1">
               <Card className="bg-cover bg-no-repeat" style={{ backgroundImage: `url('${WD02}')` }}>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <button className="btn-white">Web Development</button>
+                  <button className="btn-white 2xl:text-2xl">Web Development</button>
                 </CardContent>
               </Card>
             </div>
@@ -76,7 +76,7 @@ const Service: React.FC = () => {
         <div className="p-1">
               <Card className="bg-cover bg-no-repeat" style={{ backgroundImage: `url('${Shopify}')` }}>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <button className="btn-white">Shopify</button>
+                  <button className="btn-white 2xl:text-2xl">Shopify</button>
                 </CardContent>
               </Card>
             </div>
