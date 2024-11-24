@@ -9,7 +9,7 @@ import  BackgroundImage from '../assets/background.webp';
 
 const Banner: React.FC = () => {
     return (
-        <div style={{ backgroundImage: `url('${BackgroundImage}')` }} className={`bg-cover bg-center h-screen w-full p-3`}>
+        <div style={{ backgroundImage: `url('${BackgroundImage}')` }} className={`bg-cover bg-center h-screen overflow-hidden w-full p-3`}>
             <Navbar></Navbar>
 
             <div className="flex flex-col w-full justify-center justify-items-center items-center h-full">
@@ -25,7 +25,9 @@ const Banner: React.FC = () => {
                     
                 </div>
 
+                <a href="#contact">
                 <RainbowButton className="2xl:text-2xl">Get Started</RainbowButton>
+                </a>
             </div>
         </div>
     )

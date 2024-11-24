@@ -1,3 +1,4 @@
+import { Toaster } from "./components/ui/toaster";
 import Banner from './components/Banner'; 
 import Service from './components/Service';
 import Comparison from './components/Comparison';
@@ -24,6 +25,7 @@ function App() {
       <About/>
       <Contact/>
       <Footer/>
+      <Toaster/>
     </>
   )
 }

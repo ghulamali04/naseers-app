@@ -9,7 +9,7 @@ import barchart from '../assets/bar-chart.png'
 
 const Soluton: React.FC = () => {
     return (
-        <section className="bg-white relative pt-11 pb-16 w-full sm:px-10">
+        <section className="bg-white relative pt-11 pb-16 w-full sm:px-10 overflow-hidden">
             <Meteors number={20} />
             <h2 className="text-primary 2xl:text-6xl text-3xl sm:text-5xl font-bold w-full text-center mt-5 mb-9">Transform Your Digital Footprint With Our Customized Solutions</h2>
             <div className="flex mb-4 md:flex-nowrap flex-wrap gap-x-4 items-stretch">

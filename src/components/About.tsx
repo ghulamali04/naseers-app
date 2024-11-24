@@ -11,7 +11,6 @@ const About: React.FC = () => {
                         <p className="text-white text-md 2xl:text-2xl text-center sm:text-start mb-3 pr-2">
                             To become a global leader in innovative IT solutions, combining cutting-edge technology, creative design, and empowering education to transform businesses, enhance digital experiences, and build a smarter, more connected world.
                         </p>
-                        <button className="btn-white 2xl:text-2xl">Get Started Now</button>
                     </div>
                 </div>
                 <div>
